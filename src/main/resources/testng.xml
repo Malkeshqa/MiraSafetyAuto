@@ -1,0 +1,9 @@
+
+<suite name="Mira Safety Application Automation Test">
+	<test name="Mira Safety Test Cases">
+		<classes>
+			<class name="com.MS.qa.testcases.LoginTest" />
+			<class name="com.MS.qa.testcases.MyAccountPageTest" />
+		</classes>
+	</test>
+</suite>
