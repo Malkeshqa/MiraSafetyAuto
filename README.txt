@@ -22,4 +22,5 @@ Execution:
 
 Reporting:
 ---------------
-*	The TestNG report generate in testng.xml report resides in the 'src/main/resource' folder.
+*	The TestNG report generate in testng.xml resides in the 'src/main/resource' folder.
+*	Generate ExtentReport.html reside in the 'test-outpu/MiraSafety.html'

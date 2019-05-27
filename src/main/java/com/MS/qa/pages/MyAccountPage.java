@@ -32,6 +32,9 @@ public class MyAccountPage extends TestBase {
 	@FindBy(xpath = "/html/body/div[2]/div/header/div[2]/div/nav/ul/li[1]/a")
 	WebElement home;
 
+	@FindBy(xpath = "/html/body/div[2]/div/header/div[2]/div/nav/ul/li[4]")
+	WebElement customerServices;
+
 	// Initialization the page Object
 	public MyAccountPage() {
 		PageFactory.initElements(driver, this);

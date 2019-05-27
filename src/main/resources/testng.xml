@@ -1,5 +1,11 @@
 
 <suite name="Mira Safety Application Automation Test">
+
+	<listeners>
+		<listener
+			class-name="com.MS.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
 	<test name="Mira Safety Test Cases">
 		<classes>
 			<class name="com.MS.qa.testcases.LoginTest" />

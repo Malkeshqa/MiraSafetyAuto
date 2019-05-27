@@ -1,37 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48703" started-at="2019-05-27T16:07:42Z" finished-at="2019-05-27T16:08:31Z">
+  <suite name="Mira Safety Application Automation Test" duration-ms="203994" started-at="2019-05-27T18:06:32Z" finished-at="2019-05-27T18:09:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48703" started-at="2019-05-27T16:07:42Z" finished-at="2019-05-27T16:08:31Z">
-      <class name="com.MS.qa.testcases.AboutTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MS.qa.testcases.AboutTest@61832929]" name="setUp" is-config="true" duration-ms="25290" started-at="2019-05-27T21:37:42Z" finished-at="2019-05-27T21:38:07Z">
+    <test name="Mira Safety Test Cases" duration-ms="203994" started-at="2019-05-27T18:06:32Z" finished-at="2019-05-27T18:09:56Z">
+      <class name="com.MS.qa.testcases.MyAccountPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="18699" started-at="2019-05-27T23:36:51Z" finished-at="2019-05-27T23:37:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateAboutPageTitleTest()[pri:1, instance:com.MS.qa.testcases.AboutTest@61832929]" name="validateAboutPageTitleTest" duration-ms="110" started-at="2019-05-27T21:38:07Z" finished-at="2019-05-27T21:38:07Z">
+        <test-method status="PASS" signature="verifyMyAccountPageTitletest()[pri:1, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="verifyMyAccountPageTitletest" duration-ms="64" started-at="2019-05-27T23:37:10Z" finished-at="2019-05-27T23:37:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateAboutPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.AboutTest@61832929]" name="tearDown" is-config="true" duration-ms="694" started-at="2019-05-27T21:38:07Z" finished-at="2019-05-27T21:38:08Z">
+        </test-method> <!-- verifyMyAccountPageTitletest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="714" started-at="2019-05-27T23:37:10Z" finished-at="2019-05-27T23:37:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MS.qa.testcases.AboutTest@61832929]" name="setUp" is-config="true" duration-ms="21804" started-at="2019-05-27T21:38:08Z" finished-at="2019-05-27T21:38:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="15349" started-at="2019-05-27T23:37:22Z" finished-at="2019-05-27T23:37:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateAboutPageSectionTest()[pri:2, instance:com.MS.qa.testcases.AboutTest@61832929]" name="validateAboutPageSectionTest" duration-ms="1" started-at="2019-05-27T21:38:30Z" finished-at="2019-05-27T21:38:30Z">
+        <test-method status="PASS" signature="validateFooterTest()[pri:2, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="validateFooterTest" duration-ms="1039" started-at="2019-05-27T23:37:38Z" finished-at="2019-05-27T23:37:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateAboutPageSectionTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.AboutTest@61832929]" name="tearDown" is-config="true" duration-ms="779" started-at="2019-05-27T21:38:30Z" finished-at="2019-05-27T21:38:31Z">
+        </test-method> <!-- validateFooterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="730" started-at="2019-05-27T23:37:39Z" finished-at="2019-05-27T23:37:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.MS.qa.testcases.AboutTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="15360" started-at="2019-05-27T23:37:51Z" finished-at="2019-05-27T23:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogoutLinkTest()[pri:3, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="verifyLogoutLinkTest" duration-ms="100" started-at="2019-05-27T23:38:06Z" finished-at="2019-05-27T23:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="685" started-at="2019-05-27T23:38:06Z" finished-at="2019-05-27T23:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="13640" started-at="2019-05-27T23:38:19Z" finished-at="2019-05-27T23:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyOrderHistoryTest()[pri:4, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="verifyOrderHistoryTest" duration-ms="108" started-at="2019-05-27T23:38:32Z" finished-at="2019-05-27T23:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderHistoryTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="706" started-at="2019-05-27T23:38:32Z" finished-at="2019-05-27T23:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="15582" started-at="2019-05-27T23:38:44Z" finished-at="2019-05-27T23:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAccountDetailsTest()[pri:5, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="verifyAccountDetailsTest" duration-ms="140" started-at="2019-05-27T23:38:59Z" finished-at="2019-05-27T23:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountDetailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="708" started-at="2019-05-27T23:38:59Z" finished-at="2019-05-27T23:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="13753" started-at="2019-05-27T23:39:09Z" finished-at="2019-05-27T23:39:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactsLinkTest()[pri:6, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="verifyContactsLinkTest" duration-ms="5629" started-at="2019-05-27T23:39:23Z" finished-at="2019-05-27T23:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.MyAccountPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="724" started-at="2019-05-27T23:39:29Z" finished-at="2019-05-27T23:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MS.qa.testcases.MyAccountPageTest -->
+      <class name="com.MS.qa.testcases.LoginTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="SetUp" is-config="true" duration-ms="18333" started-at="2019-05-27T23:36:32Z" finished-at="2019-05-27T23:36:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="loginPageTitleTest" duration-ms="58" started-at="2019-05-27T23:36:50Z" finished-at="2019-05-27T23:36:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="663" started-at="2019-05-27T23:36:50Z" finished-at="2019-05-27T23:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="SetUp" is-config="true" duration-ms="11055" started-at="2019-05-27T23:37:10Z" finished-at="2019-05-27T23:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="MSLogoTest()[pri:2, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="MSLogoTest" duration-ms="40" started-at="2019-05-27T23:37:21Z" finished-at="2019-05-27T23:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MSLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="679" started-at="2019-05-27T23:37:22Z" finished-at="2019-05-27T23:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="SetUp" is-config="true" duration-ms="10779" started-at="2019-05-27T23:37:39Z" finished-at="2019-05-27T23:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="validateMenuTest()[pri:3, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="validateMenuTest" duration-ms="164" started-at="2019-05-27T23:37:50Z" finished-at="2019-05-27T23:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="729" started-at="2019-05-27T23:37:50Z" finished-at="2019-05-27T23:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="SetUp" is-config="true" duration-ms="10595" started-at="2019-05-27T23:38:07Z" finished-at="2019-05-27T23:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="validateLogOutTest()[pri:4, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="validateLogOutTest" duration-ms="137" started-at="2019-05-27T23:38:18Z" finished-at="2019-05-27T23:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogOutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="733" started-at="2019-05-27T23:38:18Z" finished-at="2019-05-27T23:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="SetUp" is-config="true" duration-ms="9715" started-at="2019-05-27T23:38:33Z" finished-at="2019-05-27T23:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="validateNewsLetterTest()[pri:5, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="validateNewsLetterTest" duration-ms="75" started-at="2019-05-27T23:38:43Z" finished-at="2019-05-27T23:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewsLetterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="680" started-at="2019-05-27T23:38:43Z" finished-at="2019-05-27T23:38:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="SetUp" is-config="true" duration-ms="8580" started-at="2019-05-27T23:39:00Z" finished-at="2019-05-27T23:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="validatecustomerServicesTest()[pri:6, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="validatecustomerServicesTest" duration-ms="148" started-at="2019-05-27T23:39:09Z" finished-at="2019-05-27T23:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecustomerServicesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="666" started-at="2019-05-27T23:39:09Z" finished-at="2019-05-27T23:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="SetUp" is-config="true" duration-ms="9888" started-at="2019-05-27T23:39:29Z" finished-at="2019-05-27T23:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="validateInformationTest()[pri:7, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="validateInformationTest" duration-ms="318" started-at="2019-05-27T23:39:39Z" finished-at="2019-05-27T23:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInformationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="690" started-at="2019-05-27T23:39:40Z" finished-at="2019-05-27T23:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="SetUp" is-config="true" duration-ms="9455" started-at="2019-05-27T23:39:40Z" finished-at="2019-05-27T23:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="loginTest()[pri:8, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="loginTest" duration-ms="5353" started-at="2019-05-27T23:39:50Z" finished-at="2019-05-27T23:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.LoginTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="676" started-at="2019-05-27T23:39:55Z" finished-at="2019-05-27T23:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MS.qa.testcases.LoginTest -->
+    </test> <!-- Mira Safety Test Cases -->
+  </suite> <!-- Mira Safety Application Automation Test -->
 </testng-results>
