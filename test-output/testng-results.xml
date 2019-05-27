@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="146889" started-at="2019-05-27T15:45:48Z" finished-at="2019-05-27T15:48:15Z">
+  <suite name="Default suite" duration-ms="48703" started-at="2019-05-27T16:07:42Z" finished-at="2019-05-27T16:08:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="146889" started-at="2019-05-27T15:45:48Z" finished-at="2019-05-27T15:48:15Z">
+    <test name="Default test" duration-ms="48703" started-at="2019-05-27T16:07:42Z" finished-at="2019-05-27T16:08:31Z">
       <class name="com.MS.qa.testcases.AboutTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MS.qa.testcases.AboutTest@61832929]" name="setUp" is-config="true" duration-ms="53850" started-at="2019-05-27T21:15:48Z" finished-at="2019-05-27T21:16:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MS.qa.testcases.AboutTest@61832929]" name="setUp" is-config="true" duration-ms="25290" started-at="2019-05-27T21:37:42Z" finished-at="2019-05-27T21:38:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateAboutPageTitleTest()[pri:1, instance:com.MS.qa.testcases.AboutTest@61832929]" name="validateAboutPageTitleTest" duration-ms="100" started-at="2019-05-27T21:16:42Z" finished-at="2019-05-27T21:16:42Z">
+        <test-method status="PASS" signature="validateAboutPageTitleTest()[pri:1, instance:com.MS.qa.testcases.AboutTest@61832929]" name="validateAboutPageTitleTest" duration-ms="110" started-at="2019-05-27T21:38:07Z" finished-at="2019-05-27T21:38:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAboutPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.AboutTest@61832929]" name="tearDown" is-config="true" duration-ms="734" started-at="2019-05-27T21:16:42Z" finished-at="2019-05-27T21:16:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.AboutTest@61832929]" name="tearDown" is-config="true" duration-ms="694" started-at="2019-05-27T21:38:07Z" finished-at="2019-05-27T21:38:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MS.qa.testcases.AboutTest@61832929]" name="setUp" is-config="true" duration-ms="91457" started-at="2019-05-27T21:16:42Z" finished-at="2019-05-27T21:18:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MS.qa.testcases.AboutTest@61832929]" name="setUp" is-config="true" duration-ms="21804" started-at="2019-05-27T21:38:08Z" finished-at="2019-05-27T21:38:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateAboutPageSectionTest()[pri:2, instance:com.MS.qa.testcases.AboutTest@61832929]" name="validateAboutPageSectionTest" duration-ms="3" started-at="2019-05-27T21:18:14Z" finished-at="2019-05-27T21:18:14Z">
+        <test-method status="PASS" signature="validateAboutPageSectionTest()[pri:2, instance:com.MS.qa.testcases.AboutTest@61832929]" name="validateAboutPageSectionTest" duration-ms="1" started-at="2019-05-27T21:38:30Z" finished-at="2019-05-27T21:38:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAboutPageSectionTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.AboutTest@61832929]" name="tearDown" is-config="true" duration-ms="709" started-at="2019-05-27T21:18:14Z" finished-at="2019-05-27T21:18:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MS.qa.testcases.AboutTest@61832929]" name="tearDown" is-config="true" duration-ms="779" started-at="2019-05-27T21:38:30Z" finished-at="2019-05-27T21:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
