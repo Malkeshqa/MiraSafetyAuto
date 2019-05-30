@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.MS.qa.testcases.CustomerServiceTest">
+      <class name="com.MS.qa.testcases.CartClearTest">
         <methods>
-          <include name="clickOnShippingTest"/>
-          <include name="ValidateCustomerSection"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="CartClearTest"/>
         </methods>
-      </class> <!-- com.MS.qa.testcases.CustomerServiceTest -->
+      </class> <!-- com.MS.qa.testcases.CartClearTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
