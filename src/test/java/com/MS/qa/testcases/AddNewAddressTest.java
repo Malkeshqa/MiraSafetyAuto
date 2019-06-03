@@ -26,6 +26,7 @@ public class AddNewAddressTest extends TestBase {
 		loginpage = new LoginPage();
 		myaccountpage = loginpage.login(prop.getProperty("email"), prop.getProperty("pass"));
 		addnewaddresspage = myaccountpage.clickOnViewAddressBtn();
+
 	}
 
 	@Test(priority = 1)
