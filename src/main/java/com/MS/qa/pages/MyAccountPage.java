@@ -83,4 +83,9 @@ public class MyAccountPage extends TestBase {
 		product.click();
 		return new ProductPage();
 	}
+	
+	public CustomerServicePage clickOnCustomerServiceLink() {
+		customerServices.click();
+		return new CustomerServicePage();
+	}
 }
