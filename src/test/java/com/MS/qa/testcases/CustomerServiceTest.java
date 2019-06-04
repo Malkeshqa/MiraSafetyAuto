@@ -10,6 +10,7 @@ import com.MS.qa.base.TestBase;
 import com.MS.qa.pages.CustomerServicePage;
 import com.MS.qa.pages.LoginPage;
 import com.MS.qa.pages.MyAccountPage;
+import com.google.common.base.Verify;
 
 public class CustomerServiceTest extends TestBase {
 	LoginPage loginpage;
