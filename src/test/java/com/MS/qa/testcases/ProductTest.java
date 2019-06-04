@@ -1,6 +1,5 @@
 package com.MS.qa.testcases;
 
-import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -15,24 +14,36 @@ public class ProductTest extends TestBase {
 	MyAccountPage myaccountpage;
 	ProductPage productpage;
 
+	public ProductTest() {
+		super();
+	}
+
 	@BeforeMethod
 	public void setUp() {
+
 		initialization();
 		productpage = new ProductPage();
 		loginpage = new LoginPage();
 		myaccountpage = loginpage.login(prop.getProperty("email"), prop.getProperty("pass"));
 		productpage = myaccountpage.clickOnProductPage();
+
 	}
 
 	@Test
-	public void checkOutProduct() {
-		// Assert.assertEquals(productpage.validateProductPageTitle(), "Home page",
-		// "Product Page Title not Verified");
-		productpage.checkOutProduct();
+	public void productCheckOutTest() throws InterruptedException {
+		productpage.clickOnShopNowBtn();
+		productpage.clickOnAddCartButton();
+		productpage.checkOutproduct("Note");
+	}
+
+	@AfterMethod
+	public void teardown() {
+		driver.quit();
 	}
 
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
 	}
+
 }
