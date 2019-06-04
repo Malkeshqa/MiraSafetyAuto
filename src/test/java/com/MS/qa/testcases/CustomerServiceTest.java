@@ -106,11 +106,12 @@ public class CustomerServiceTest extends TestBase {
 				"Terms of Use Title not Matched");
 	}
 
-	@Test(priority = 12)
+	
 	public void validatePrivacyPolicyTest() {
 		customerservicespage.clickOnPrivacyPolicy();
 		Assert.assertEquals(customerservicespage.validateprivacyPolicyTitle(), "Privacy Policy",
 				"Privacy Policy Title not Matched");
+		driver.navigate().back();
 	}
 
 	@AfterMethod
