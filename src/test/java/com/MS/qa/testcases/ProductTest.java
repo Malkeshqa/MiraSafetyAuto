@@ -33,17 +33,12 @@ public class ProductTest extends TestBase {
 	public void productCheckOutTest() throws InterruptedException {
 		productpage.clickOnShopNowBtn();
 		productpage.clickOnAddCartButton();
+		productpage.Calculate();
 		productpage.checkOutproduct("Note");
 	}
 
-	@AfterMethod
-	public void teardown() {
-		driver.quit();
-	}
-
-	@AfterMethod
-	public void tearDown() {
-		driver.quit();
-	}
+	/*
+	 * @AfterMethod public void teardown() { driver.quit(); }
+	 */
 
 }

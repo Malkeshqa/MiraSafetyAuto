@@ -10,6 +10,7 @@ import com.MS.qa.base.TestBase;
 import com.MS.qa.pages.CustomerServicePage;
 import com.MS.qa.pages.LoginPage;
 import com.MS.qa.pages.MyAccountPage;
+import com.google.common.base.Verify;
 
 public class CustomerServiceTest extends TestBase {
 	LoginPage loginpage;
@@ -105,11 +106,12 @@ public class CustomerServiceTest extends TestBase {
 				"Terms of Use Title not Matched");
 	}
 
-	@Test(priority = 12)
+	
 	public void validatePrivacyPolicyTest() {
 		customerservicespage.clickOnPrivacyPolicy();
 		Assert.assertEquals(customerservicespage.validateprivacyPolicyTitle(), "Privacy Policy",
 				"Privacy Policy Title not Matched");
+		driver.navigate().back();
 	}
 
 	@AfterMethod

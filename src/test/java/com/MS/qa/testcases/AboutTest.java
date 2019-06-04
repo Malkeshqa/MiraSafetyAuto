@@ -39,6 +39,8 @@ public class AboutTest extends TestBase {
 	@Test(priority = 2)
 	public void validateAboutPageSectionTest() {
 		aboutpage.validatesSection();
+		aboutpage.validatecoreSection();
+		aboutpage.validateTeamSection();
 	}
 
 	@AfterMethod

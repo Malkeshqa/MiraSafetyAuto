@@ -60,7 +60,7 @@ public class ProductPage extends TestBase {
 
 		clickOnplusBtn.click();
 
-		driver.findElement(By.xpath("//button[@name = 'checkout']")).submit();
+		driver.findElement(By.xpath("/html/body/div[3]/main/div/div/form/div/div[2]/div/div[3]/button")).click();
 		checkOutBtn.click();
 	}
 
