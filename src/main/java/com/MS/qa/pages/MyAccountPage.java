@@ -32,6 +32,15 @@ public class MyAccountPage extends TestBase {
 	@FindBy(xpath = "/html/body/div[2]/div/header/div[2]/div/nav/ul/li[1]/a")
 	WebElement home;
 
+	@FindBy(xpath = "/html/body/div[2]/div/header/div[2]/div/nav/ul/li[3]")
+	WebElement product;
+
+	@FindBy(xpath = "/html/body/div[2]/div/header/div[2]/div/nav/ul/li[4]")
+	WebElement customerServices;
+
+	@FindBy(xpath = "//a[contains(@class,'btn--small')]")
+	WebElement viewAddressBtn;
+
 	// Initialization the page Object
 	public MyAccountPage() {
 		PageFactory.initElements(driver, this);
@@ -62,6 +71,21 @@ public class MyAccountPage extends TestBase {
 	public AboutPage clickOnAboutink() {
 		aboutLink.click();
 		return new AboutPage();
+
 	}
 
+	public AddNewAddressPage clickOnViewAddressBtn() {
+		viewAddressBtn.click();
+		return new AddNewAddressPage();
+	}
+
+	public ProductPage clickOnProductPage() {
+		product.click();
+		return new ProductPage();
+	}
+
+	public CustomerServicePage clickOnCustomerServiceLink() {
+		customerServices.click();
+		return new CustomerServicePage();
+	}
 }

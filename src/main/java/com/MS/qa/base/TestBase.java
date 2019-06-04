@@ -22,7 +22,7 @@ public class TestBase {
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream(
-					"E:\\Selenium\\MiraSafety\\src\\main\\java\\com\\MS\\qa\\config\\config.properties");
+					"D:\\Selenium1\\MiraSafety2\\MiraSafetyAuto\\src\\main\\java\\com\\MS\\qa\\config\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -36,7 +36,7 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		if (browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					"E:\\Selenium\\MiraSafety\\browserdriver\\chromedriver74\\chromedriver.exe");
+					"D:\\Selenium1\\MiraSafety2\\MiraSafetyAuto\\browserdriver\\chromedriver74\\chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browserName.equals("FF")) {
 			System.setProperty("webdriver.gecko.driver",

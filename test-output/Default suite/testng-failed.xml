@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.MS.qa.testcases.AboutTest">
+      <class name="com.MS.qa.testcases.CalculateQty">
         <methods>
-          <include name="validateAboutPageSectionTest"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="CalculateQtyPerPrice"/>
         </methods>
-      </class> <!-- com.MS.qa.testcases.AboutTest -->
+      </class> <!-- com.MS.qa.testcases.CalculateQty -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
