@@ -69,12 +69,44 @@ public class ProductPage extends TestBase {
 
 	}
 
-	public void Calculate() {
-		for (int i = 1; i == 5; i++) {
-			String qty = minqty.getAttribute("Value");
-			System.out.println("DefaultQTY:-" + qty);
-			clickOnplusBtn.click();
+	public void calculateQty() {
+
+		// Calculate Qty
+
+		String minqty = driver.findElement(By.name("updates[]")).getAttribute("value");
+		int baseqty = Integer.parseInt(minqty); // MinQty Convert String to Integer
+
+		String minprice = price.getText();
+		String minprice1 = minprice.replace("$", "").replace(",", "");
+		double price1 = Double.parseDouble(minprice1);
+
+		for (int i = baseqty; i <= 5; i++) {
+
+			String qty = driver.findElement(By.name("updates[]")).getAttribute("value"); // Qty
+			Integer intqty = Integer.parseInt(qty); // Qty Convert into String to Integer
+
+			System.out.println("=============== " + "TotalQty:-" + qty + " ==========================");
+
+			String baseprice = price.getText();
+			String newStr = baseprice.replace("$", "").replace(",", ""); // Remove $ and , sign
+
+			double str1 = Double.parseDouble(newStr); // //Price Convert into String to Integer
+
+			System.out.println("IntPrice:-" + newStr);
+			System.out.println("Price:- " + baseprice);
+
+			double p = (intqty * price1);
+			System.out.println("Double value:-" + p);
+
+			if (str1 == p) {
+				System.out.println("Calculation Correct Working");
+			} else {
+				System.out.println("Calculation Correct not Working");
+			}
+
+			clickOnplusBtn.click();// Click on Plus icon
 		}
 
 	}
+
 }
