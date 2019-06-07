@@ -1,4 +1,4 @@
-package com.MS.qa.pages;
+package com.MS.qa.testcases;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -9,6 +9,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.MS.qa.base.TestBase;
+import com.MS.qa.pages.LoginPage;
+import com.MS.qa.pages.MyAccountPage;
+import com.MS.qa.pages.ProductPage;
 
 public class CalculateQtyTest extends TestBase {
 	LoginPage loginpage;

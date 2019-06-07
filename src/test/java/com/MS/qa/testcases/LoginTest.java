@@ -1,14 +1,13 @@
 package com.MS.qa.testcases;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.MS.qa.base.TestBase;
-import com.MS.qa.pages.MyAccountPage;
 import com.MS.qa.pages.LoginPage;
+import com.MS.qa.pages.MyAccountPage;
 
 public class LoginTest extends TestBase {
 	LoginPage loginPage;
