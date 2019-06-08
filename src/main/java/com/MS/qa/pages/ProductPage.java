@@ -57,9 +57,7 @@ public class ProductPage extends TestBase {
 
 	public void checkOutproduct(String note) throws InterruptedException {
 		instructorNote.sendKeys(note);
-
-		clickOnplusBtn.click();
-		checkOutBtn.click();
+		Thread.sleep(3000L);
 		checkOutBtn.click();
 	}
 
@@ -106,6 +104,11 @@ public class ProductPage extends TestBase {
 			clickOnplusBtn.click();// Click on Plus icon
 		}
 
+	}
+
+	// verify Checkout Page title
+	public String verifyCheckoutPageTitle() {
+		return driver.getTitle();
 	}
 
 }
