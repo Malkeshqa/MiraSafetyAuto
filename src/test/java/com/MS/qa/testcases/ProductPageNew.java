@@ -27,7 +27,7 @@ public class ProductPageNew extends TestBase {
 	@BeforeMethod
 	public void setup() {
 		System.setProperty("webdriver.chrome.driver",
-				"E:\\Test\\MiraSafety\\browserdriver\\chromedriver74\\chromedriver.exe");
+				"D:\\Selenium1\\MiraSafetyAuto\\browserdriver\\chromedriver74\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.mirasafety.com/");
